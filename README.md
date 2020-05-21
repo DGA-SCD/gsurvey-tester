@@ -21,10 +21,10 @@ cd gsurvey-tester && npm install
 ```
 
 ### Add configuration
-Add cypress.env.config in order to specify sensitive data ,such as username, password and so on.
+Add cypress.env.json in order to specify sensitive data ,such as username, password and so on.
 
 ```
-cp cypress.env.config.simple to cypress.env.config
+cp cypress.env.json.simple to cypress.env.json
 ```
 after that, edit each fields in that file.
 
