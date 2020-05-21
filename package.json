@@ -1,0 +1,25 @@
+{
+  "name": "gsurvey-tester",
+  "version": "1.0.0",
+  "description": "Automated Test for G-Survey",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-solution-consulting/gsurvey-tester.git"
+  },
+  "author": "SCD Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digital-solution-consulting/gsurvey-tester/issues"
+  },
+  "homepage": "https://github.com/digital-solution-consulting/gsurvey-tester#readme",
+  "devDependencies": {
+    "cypress": "^4.6.0"
+  },
+  "dependencies": {
+    "uuid-v4": "^0.1.0"
+  }
+}
